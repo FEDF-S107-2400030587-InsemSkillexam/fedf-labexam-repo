@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhargavi's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header, section, footer {
+      padding: 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    header {
+      background: #6200ea;
+      color: white;
+      text-align: center;
+    }
+
+    .projects {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .project-card {
+      flex: 1 1 30%;
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      .project-card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bhargavi</h1>
+    <p>Developer | ML Enthusiast | Database Explorer</p>
+  </header>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">Project A</div>
+      <div class="project-card">Project B</div>
+      <div class="project-card">Project C</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Bhargavi | KL Student Portal</p>
+  </footer>
+
+</body>
+</html>
